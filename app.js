@@ -79,3 +79,15 @@ function reset () {
     level = 0;
     console.log("-----------------------");
 }
+let startBtn = document.getElementById("start-btn");
+
+document.addEventListener("keypress", startGame);
+startBtn.addEventListener("click", startGame);
+
+function startGame() {
+    if (!started) {
+        console.log("Game started");
+        started = true;
+        levelUP();
+    }
+}
