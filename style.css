@@ -39,3 +39,15 @@ body {
 .userflash {
     background-color: rgb(113, 247, 113);
 }
+#start-btn {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+#start-btn {
+    background-color: #333;
+}
